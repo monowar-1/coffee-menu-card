@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.css" />
+    <style>
+        body {
+            background-image: radial-gradient(#f5f5f5, );
+        }
+
+        .cf {
+            padding: 1px;
+            margin: 25px;
+        }
+
+        .menu {
+            height: 350px;
+            width: 300px;
+            background: #6C3428;
+            display: inline-block;
+            overflow: hidden;
+
+        }
+
+        .ima {
+            display: none;
+            transition: 5s;
+            height: 275px;
+            width: 280px;
+            margin: 8px;
+        }
+
+        .menu:hover .ima {
+            display: block;
+        }
+
+        .off {
+            text-decoration: line-through;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .price {
+            color: #f5f1f1;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .cla {
+            font-weight: bold;
+            font-size: 20px;
+            padding: 0px;
+            margin: 0px;
+            color: #DFA878;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            background-color: rgba(114, 49, 2, 0.765);
+            justify-content: center;
+        }
+
+        .flex-container>div {
+            color: #3a2222;
+            margin: 15px;
+            padding: 5px;
+            font-size: 25px;
+        }
+
+        .a:hover {
+            opacity: 0.80;
+            color: #FDF0D1;
+            background-color: #3E3232;
+            border-radius: 8%;
+            cursor: grab;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class="nav">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="a">Home</div>
+        <div class="a">Coffee</div>
+        <div class="a">Green Coffee</div>
+        <div class="a">Black Coffee</div>
+        <div class="a">Tea</div>
+
+
+
+    </div>
+
+    <div class="cf">
+        <div class="menu">
+            <img class="ima" src="https://www.acouplecooks.com/wp-content/uploads/2021/08/Cafe-Au-Lait-001s.jpg">
+            <p class="cla">Coffee</p>
+            <p class="price"><span class="off">$700</span>$500</p>
+        </div>
+        <div class="menu">
+            <img class="ima"
+                src="https://www.eatright.org/-/media/images/eatright-articles/eatright-article-feature-images/benefitsofcoffee_600x450.jpg?as=0&w=967&rev=6c8a9cd4a94d4cac8af8543054fd7b07&hash=4C95EA3A031A783C6DFA3ED04AB4FED4">
+            <p class="cla"> Black Coffee</p>
+            <p class="price"><span class="off">$600</span>$500</p>
+        </div>
+        <div class="menu">
+            <img class="ima"
+                src="https://i.guim.co.uk/img/media/6e6df4c8f8641f798678905e47b13d48d29ceae4/276_633_3639_2184/master/3639.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=e4ed3c65432928a98ad257aff6ee09f3">
+            <p class="cla">Flat white</p>
+            <p class="price"><span class="off">$500</span>$200</p>
+        </div>
+        <div class="menu">
+            <img class="ima"
+                src="https://esquirescoffee.co.uk/wp-content/uploads/2022/08/decaf-vs-reg-coffee-scaled.jpg">
+            <p class="cla">Regular Coffee</p>
+            <p class="price"><span class="off">$250</span>$100</p>
+        </div>
+        <div class="menu">
+            <img class="ima"
+                src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/04/latte-with-bread.jpg?quality=82&strip=1">
+            <p class="cla">Latte</p>
+            <p class="price"><span class="off">$500</span>$250</p>
+        </div>
+        <div class="menu">
+            <img class="ima" src="https://sehablacafe.com/wp-content/uploads/2021/04/Flat-White-coffee.jpg">
+            <p class="cla">Coffee With Milk</p>
+            <p class="price"><span class="off">$500</span>$300</p>
+        </div>
+        <div class="menu">
+            <img class="ima"
+                src="https://www.eatthis.com/wp-content/uploads/sites/4/media/images/ext/554793180/starbucks-flat-white.jpg?quality=82&strip=1">
+            <p class="cla">Coffee With Milk</p>
+            <p class="price"><span class="off">$500</span>$380</p>
+        </div>
+        <div class="menu">
+            <img class="ima"
+                src="https://www.thespruceeats.com/thmb/POPhcPYBWx7fNJu8Bc7YjS-Flso=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-mocha-4797918-hero-01-1-f8fb7ebd74914895b61366f6fc1d4b05.jpg">
+            <p class="cla">Mocha Coffee</p>
+            <p class="price"><span class="off">$500</span>$450</p>
+        </div>
+    </div>
+</body>
+
+</html>
